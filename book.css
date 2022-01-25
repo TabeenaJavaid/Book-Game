@@ -1,0 +1,57 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-image: url("book images/book3.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+figure{
+    margin-top: 20px;
+    color: #faf3dd;
+}
+button{
+    font-size: 1rem;
+}
+
+.col-12{
+    display: flex;
+    justify-content: center;
+}
+
+.col-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rowLast{
+    margin-top: 130px;
+}
+#row3{
+    margin-top: 100px;
+}
+h4{
+    color: white;
+}
+.none{
+    display: none;
+}
+#max{
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+    h4 {
+     font-size: 18px;
+    }
+    button{
+        font-size: 0.5rem;
+        padding: 0
+    }
+  }
